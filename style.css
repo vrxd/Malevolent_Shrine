@@ -1,0 +1,47 @@
+
+body {
+margin: 0;
+height: 100vh;
+background: url("gate.jpg") no-repeat center center/cover;
+font-family: monospace;
+color: rgb(250, 250, 250);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.content {
+text-align: center;
+}
+
+h1 {
+letter-spacing: 6px;
+margin-bottom: 30px;
+text-shadow: 0 0 15px rgb(255, 243, 243);
+}
+
+.input-box {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+input {
+padding: 12px;
+width: 260px;
+background: black;
+border: 1px solid rgb(255, 250, 251);
+color: rgb(255, 255, 255);
+}
+
+button {
+padding: 12px 18px;
+background: rgb(251, 247, 248);
+border: none;
+font-weight: bold;
+cursor: pointer;
+}
+
+#message {
+margin-top: 25px;
+}
